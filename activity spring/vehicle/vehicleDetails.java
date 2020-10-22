@@ -14,9 +14,9 @@ public class VechileDetails {
 	Mile bike;
 	public void getMileage(String choice) {
 		if(choice.equals("car"))
-			car.showMileage();
+			car.showMileage(20);
 		else
-			bike.showMileage();
+			bike.showMileage(40);
 	}
 	
 	}
