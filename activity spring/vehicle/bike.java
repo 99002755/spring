@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 public class Bike implements Mile {
 
 	@Override
-	public void showMileage() {
+	public void showMileage(int x) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Bike mileage is");
+		System.out.println("Bike mileage is"+x);
 	}
 
 }
